@@ -1,0 +1,16 @@
+name: venv
+channels:
+  - bioconda
+  - conda-forge
+  - nodefaults
+dependencies:
+  - abnumber
+  - biophi
+  - biopython
+  - openpyxl
+  - pandas
+  - pip
+  - sapiens
+  - tensorboardx
+  - pip:
+      - argparse
